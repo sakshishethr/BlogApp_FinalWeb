@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    .hero {
+        background-image: url("https://source.unsplash.com/random/1600x900");
+        background-size: cover;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+    }
+
+        .hero h1 {
+            font-size: 6rem;
+            margin-bottom: 0;
+        }
+
+        .hero p {
+            font-size: 2rem;
+            margin-top: 0;
+        }
+
+    .learn-more {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-top: 20px;
+        display: inline-block;
+    }
+
+        .learn-more:hover {
+            background-color: #0056b3;
+        }
+</style>
+<div class="hero">
+    <div>
+        <h1>Welcome to My Blog</h1>
+        <p>Learn about building Web apps with ASP.NET Core</p>
+        <a href="#" class="learn-more">Get Started</a>
+    </div>
+</div>
